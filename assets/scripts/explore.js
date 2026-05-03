@@ -26,7 +26,6 @@ function init() {
     });
   }
 
-  populateVoices();
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
 
   // Button click event
